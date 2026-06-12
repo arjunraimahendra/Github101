@@ -1,8 +1,8 @@
 def print_hello_world():
     print("Hello World!")
 
-def print_my_name(name):
-    print(f"My name is {name}.")
+def print_my_name(firstname, lastname):
+    print(f"My name is {firstname} {lastname}.")
 
 print_hello_world()
-print_my_name("Arjun")
+print_my_name("Arjun", "Mahendra")
